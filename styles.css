@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+svg *[class*="s-"]:not(.disabled) {
+  cursor: pointer;
+}
+
+svg *[class*="s-"]:not(.disabled):hover,
+svg *[class*="s-"]:not(.disabled).active {
+  stroke-width: 1px;
+  stroke: #fff;
+}
+
+.cart {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  opacity: .7;
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.cart-title {
+  font-weight: bold;  
+}
